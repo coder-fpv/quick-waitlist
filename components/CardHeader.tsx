@@ -1,5 +1,7 @@
 import Image from "next/image";
-const siteLogo = process.env.NEXT_PUBLIC_LOGO || "/logos/coderfpv.png";
+import Speaker from "/public/speaker.svg";
+
+const siteLogo = process.env.NEXT_PUBLIC_LOGO || Speaker;
 
 const CardHeader = ({
   title,

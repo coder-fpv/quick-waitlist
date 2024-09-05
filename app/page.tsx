@@ -5,7 +5,7 @@ import EmailForm from "@/components/EmailForm";
 
 export default function Home() {
   // Data from env
-  const Title = process.env.NEXT_PUBLIC_HERO_TITLE || "We are launching our different products and services Soon";
+  const Title = process.env.NEXT_PUBLIC_HERO_TITLE || "We are launching Soon";
   const Subtitle = process.env.NEXT_PUBLIC_HERO_SUBTITLE || "Stay tuned";
 
   return (

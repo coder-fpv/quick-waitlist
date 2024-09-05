@@ -26,7 +26,7 @@ const EmailForm = () => {
 
         if (res.ok) {
           target.reset();
-          toast.success("Thank you for subscribing 🎉");
+          toast.success("Thank you for subscribing to coderfpv 🎉");
         } else {
           console.error("Error:", res.status, res.statusText);
           toast.error("Something went wrong");
