@@ -10,7 +10,7 @@ const InstagramLink = process.env.NEXT_PUBLIC_INSTAGRAM || "https://www.instagra
 const TwitterLink = process.env.NEXT_PUBLIC_TWITTER || "https://www.x.com/coderfpv";
 const GithubLink = process.env.NEXT_PUBLIC_GITHUB || "https://www.github.com/coder-fpv";
 const FacebookLink = process.env.NEXT_PUBLIC_FACEBOOK || "https://www.facebook.com/coderfpv";
-const PinterestLink = process.env.NEXT_PUBLIC_PINTEREST || "https://www.facebook.com/coderfpv";
+const PinterestLink = process.env.NEXT_PUBLIC_PINTEREST || "https://pin.it/2UJ2eYC9L";
 
 const CardFooter = () => {
   return (
