@@ -12,7 +12,7 @@ const PrivacyPolicyPage = () => {
             </h1>
           </div>
           <p className="text-black/40 font-normal mb-6">
-            {process.env.NEXT_PUBLIC_PRIVACY || "Add Privacy Policy From ENV"}
+            {process.env.NEXT_PUBLIC_PRIVACY || "We value your privacy and promise not to spam your inbox"}
           </p>
           <Link
             href="/"

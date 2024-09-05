@@ -10,7 +10,7 @@ import {
 } from "@react-email/components";
 
 export const EmailTemplate = () => {
-  const siteLogo = process.env.NEXT_PUBLIC_DOMAIN + "/speaker.svg";
+  const siteLogo = process.env.NEXT_PUBLIC_DOMAIN + "/logos/coderfpv.png";
   return (
     <Html>
       <Head />
@@ -29,13 +29,10 @@ export const EmailTemplate = () => {
               style={text}
             >{`Big welcome and thanks for subscribing ${process.env.NEXT_PUBLIC_SITE_NAME}`}</Text>
             <Text style={text}>
-              🚀 The mission is to send out a stylish and simple newsletter that
-              help busy creatives to stay updated without cluttering their
-              inbox.
+              🚀 The mission is to rengineer the future of flight 
             </Text>
             <Text style={text}>
-              🛳 All new AI resources and tools are carefully curated, with only
-              a handful of the best being shipped.
+              🛳 We have got courses and 
             </Text>
             <Text style={text}>Expect a new shipment every Tuesday!</Text>
           </Section>
