@@ -2,7 +2,6 @@ import Card from "@/components/Card";
 import CardFooter from "@/components/CardFooter";
 import CardHeader from "@/components/CardHeader";
 import EmailForm from "@/components/EmailForm";
-
 export default function Home() {
   // Data from env
   const Title = process.env.NEXT_PUBLIC_HERO_TITLE || "We are launching Soon";

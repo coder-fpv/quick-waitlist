@@ -44,9 +44,9 @@ const EmailForm = () => {
       <div className="relative">
         <label
           htmlFor="email"
-          className="absolute inset-y-0 left-0 pl-2.5 flex items-center"
+          className="absolute inset-y-0 left-0 pl-2.5 flex items-center pointer-events-none"
         >
-          <Image src={Mail} alt="mail" />
+          <Image src={Mail} alt="mail" className="filter invert w-5 h-5" />
         </label>
         <input
           type="email"
@@ -54,13 +54,13 @@ const EmailForm = () => {
           id="email"
           required
           placeholder="Join our waiting list..."
-          className="lg:w-[300px] py-2 px-3 rounded-md text-base pl-8 shadow-button-shadow border bg-white/50 focus-visible:outline-none focus-visible:bg-white"
+          className="lg:w-[300px] py-2 px-3 pl-10 rounded-md text-base border border-[#00ffff] bg-[#1a1a2e]/50 text-[#00ffff] placeholder-[#00ffff]/50 focus-visible:outline-none focus-visible:bg-[#1a1a2e] focus-visible:border-[#ff00ff] transition-all duration-200"
         />
       </div>
       <button
         disabled={isPending}
         type="submit"
-        className="bg-gradient-to-b from-white to-[#f8eedb] text-[#482307] shadow-button-shadow font-semibold py-2 px-3 rounded-md text-base transition-all duration-200 "
+        className="bg-gradient-to-r from-[#00ffff] to-[#ff00ff] text-[#1a1a2e] font-semibold py-2 px-3 rounded-md text-base transition-all duration-200 hover:from-[#ff00ff] hover:to-[#00ffff]"
       >
         Subscribe
       </button>
