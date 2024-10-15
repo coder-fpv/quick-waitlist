@@ -14,7 +14,7 @@ export const EmailTemplate = () => {
   return (
     <Html>
       <Head />
-      <Preview>{`You're on the waitlist for ${process.env.NEXT_PUBLIC_SITE_NAME}`}</Preview>
+      <Preview>{`You’re on the waitlist for ${process.env.NEXT_PUBLIC_SITE_NAME}`}</Preview>
       <Body style={main}>
         <Container style={container}>
           <Img
@@ -27,19 +27,14 @@ export const EmailTemplate = () => {
           <Section>
             <Text
               style={text}
-            >{`Welcome to the future of flight with ${process.env.NEXT_PUBLIC_SITE_NAME}!`}</Text>
+            >{`Big welcome and thanks for subscribing ${process.env.NEXT_PUBLIC_SITE_NAME}`}</Text>
             <Text style={text}>
-              🚀 We're on a mission to revolutionize FPV technology
+              🚀 The mission is to rengineer the future of flight 
             </Text>
             <Text style={text}>
-              🛠 Cutting-edge courses and resources coming your way
+              🛳 We have got courses and 
             </Text>
-            <Text style={text}>
-              🌟 Get ready for weekly updates on Tuesdays
-            </Text>
-            <Text style={text}>
-              Thank you for joining our waitlist. We can't wait to take flight with you!
-            </Text>
+            <Text style={text}>Expect a new shipment every Tuesday!</Text>
           </Section>
         </Container>
       </Body>
